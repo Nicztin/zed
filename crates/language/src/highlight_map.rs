@@ -51,7 +51,7 @@ impl HighlightMap {
 }
 
 impl HighlightId {
-    pub(crate) fn is_default(&self) -> bool {
+    pub fn is_default(&self) -> bool {
         *self == DEFAULT_SYNTAX_HIGHLIGHT_ID
     }
 
